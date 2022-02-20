@@ -49,3 +49,5 @@ La aplicación se divide en 3 pantallas:
 
   - Material de la asignatura Creando Interfaces de Usuario
   - Documentación de Processing
+
+![Error showing gif :(](https://github.com/HectorMartinAlvarez/CIU_2/blob/main/CIU_2/animation.gif)
