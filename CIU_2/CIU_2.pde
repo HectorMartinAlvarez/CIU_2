@@ -1,7 +1,3 @@
-import gifAnimation.*;
-
-GifMaker gifExport;
-
 PShape obj;
 
 Shape current;
@@ -22,12 +18,9 @@ void setup() {
   axis = (int)width/3;
   current = new Shape();
   previous = new Shape();
-  gifExport = new GifMaker(this, "export.gif");
 }
 void draw() {
   background(0);
-  println("i=" + index);
-  println("s=" + saved.size());
   switch(mode){
     case 1:
       textSize(25);
@@ -90,7 +83,6 @@ void draw() {
       }
       break;
   }
-  gifExport.addFrame();
 }
 
 void lines() {
@@ -103,10 +95,6 @@ void lines() {
 }
 
 void keyPressed() {
-  switch(key){
-    case '*':
-      gifExport.finish();    
-  }
   switch(mode){
     case 1:
       switch(key){
