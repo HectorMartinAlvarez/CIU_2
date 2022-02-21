@@ -113,7 +113,7 @@ void keyPressed() {
           break;
         case 'e':
         case 'E':
-          if(current.size() >= 4){
+          if(current.size() >= 2){
             previous.set(current.copy());
             current.centerShape();
             make3D(current.copy());
